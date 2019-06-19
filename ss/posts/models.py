@@ -14,14 +14,13 @@ class PublishedManager(models.Manager):
 class UserProfileManager(models.Manager):
     def all(self):
         use_for_related_fields = True
-
         qs = self.get_queryset().all
+
         try:
             if self.instance:
-                qs = qs.exclude(user=self.instance)
+                qs = qs.exclude(user = self.instance)
         except:
             pass
-
         return qs
 
 class Author(models.Model):
@@ -31,13 +30,6 @@ class Author(models.Model):
         return self.user.username
 
     auth_details = UserProfileManager()
-    def get_following(self):
-        users = self.following.all()
-
-        return users.exclude(username = self.user.username)
-    def get_followers(self):
-        users = self.user.followed_by.all()
-        return users
 class Post(models.Model):
     objects=models.Manager()
     published = PublishedManager()
@@ -57,7 +49,9 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-
+    def get_following(self):
+        users = self.following.all()
+        return users.exclude(username = self.user.username)
     def total_likes(self):
         return self.likes.count()
     def get_absolute_url(self):

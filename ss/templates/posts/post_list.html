@@ -1,0 +1,36 @@
+{% extends 'posts/base.html' %}
+{% block title %}Welcome to {{block.super}}{% endblock %}
+{% block content %}
+<div class="row">
+        {% for p in pst %}
+        <div class="col-md-6">
+            <div class="img-thumbnail">
+                <a href="{% url 'posts:post_detail' p.id %}">{{p.title}}</a><small style="float:right">{{p.created}}</small>
+                            <!-- {{total_likes}} Like{{total_likes|pluralize}} -->
+
+                            {% if request.user.is_authenticated %}
+
+                            <form action="{% url 'posts:like_post' p.id %}" method="post">
+                                {{is_liked}}
+                                {% csrf_token %}
+                                {% if is_liked %}
+                                <button type="submit" name="psts_id" value="{{p.id}}" class="btn btn-danger">Dislike</button>
+                                {% else %}
+                                <button type="submit" name="psts_id" value="{{p.id}}" class="btn btn-primary">Like</button>
+                                {% endif %}
+
+                            </form>
+
+
+                            {% endif %}<br>
+               <a href="{% url 'posts:author' p.author.id%}"> Author: {{p.author}}</a> <br>
+                {{p.body}}
+           </div>
+            <br>
+        </div>
+        {% endfor %}
+
+
+</div>
+
+{% endblock %}

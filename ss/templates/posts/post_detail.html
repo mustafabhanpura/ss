@@ -1,0 +1,10 @@
+{% extends 'posts/base.html' %}
+{% block title %}{{ psts.title }} | {{block.super}}{% endblock %}
+{% block content %}
+    <h3>{{ psts.title }}</h3>
+    <small>Post created by: {{ psts.author }}</small>
+    <hr>
+    <p>{{psts.body}}</p>
+
+
+{% endblock %}

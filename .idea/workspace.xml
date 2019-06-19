@@ -2,185 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccd40beb-daa2-47da-bffb-41bc9ce14f0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/fonts/Roboto-Light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/acc_active_email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/acc_active_email0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/acc_active_sent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/acc_active_sent0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/confirmed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/confirmed0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/tokens.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/accounts/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/migrations/0002_post_following.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/migrations/0003_auto_20190616_2328.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/migrations/0004_auto_20190617_1129.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/migrations/0005_remove_post_following.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/migrations/0006_auto_20190617_1311.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/migrations/0007_auto_20190617_1559.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/posts/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/scrapshut/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/scrapshut/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/scrapshut/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/scrapshut/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/static/posts/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/changelists.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/responsive_rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/vendor/select2/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/vendor/select2/select2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/css/widgets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/fonts/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/fonts/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/calendar-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/gis/move_vertex_off.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/gis/move_vertex_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-addlink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-alert.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-calendar.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-changelink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-clock.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-deletelink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-no.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-unknown-alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-unknown.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-viewlink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/icon-yes.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/inline-delete.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/search.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/selector-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/sorting-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/tooltag-add.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/img/tooltag-arrowright.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/SelectBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/SelectFilter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/actions.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/autocomplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/cancel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/change_form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/collapse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/inlines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/inlines.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/jquery.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/popup_response.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/prepopulate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/prepopulate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/prepopulate_init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/timeparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/urlify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/jquery/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/select2.full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/select2/select2.full.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/xregexp/xregexp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/staticfiles/posts/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/acc_active_email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/acc_active_sent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/author.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/confirmed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/password_reset_complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/password_reset_confirm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/password_reset_done.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/password_reset_email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/password_reset_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/password_reset_subject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/post_create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/post_detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/post_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ss/templates/posts/tokens.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/models.py" afterPath="$PROJECT_DIR$/posts/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -210,8 +32,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/posts/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="1241">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -970,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/posts/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="1241">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -2,7 +2,10 @@
 {% block title %}Welcome to {{block.super}}{% endblock %}
 {% block content %}
 <div class="row">
+
+
         {% for p in pst %}
+
         <div class="col-md-6">
             <div class="img-thumbnail">
                 <a href="{% url 'posts:post_detail' p.id %}">{{p.title}}</a><small style="float:right">{{p.created}}</small>
@@ -11,21 +14,35 @@
                             {% if request.user.is_authenticated %}
 
                             <form action="{% url 'posts:like_post' p.id %}" method="post">
+                                {{is_liked}}
                                 {% csrf_token %}
-                                {% if is_liked %}
+                                {% if is_liked is True %}
                                 <button type="submit" name="psts_id" value="{{p.id}}" class="btn btn-danger">Dislike</button>
                                 {% else %}
                                 <button type="submit" name="psts_id" value="{{p.id}}" class="btn btn-primary">Like</button>
                                 {% endif %}
+
                             </form>
+
+
                             {% endif %}<br>
-                Author: {{p.author}} <br>
+               Author:<a href="{% url 'posts:author' p.author.id%}">  {{p.author}}</a> <br>
+                <hr>
                 {{p.body}}
            </div>
             <br>
         </div>
+
+
         {% endfor %}
 
-
 </div>
+<style>
+    .container-fluid{
+        margin:0px;
+        margin-top:12px;
+        width:50%;
+    }
+
+</style>
 {% endblock %}

@@ -21,6 +21,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="{% url 'accounts:user_logout' %}">Logout</a>
           <a class="dropdown-item" href="{% url 'posts:post_create' %}">Create Post</a>
+          <a class="dropdown-item" href="{% url 'posts:my_profile' %}">My Profile</a>
         </div>
       </li>
       {% else %}

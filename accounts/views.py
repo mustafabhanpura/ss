@@ -50,7 +50,7 @@ def user_login(request):
 
 def user_logout(request):
     logout(request)
-    return redirect('posts:post_list')
+    return redirect('/accounts/login/')
 
 #
 # def register(request):

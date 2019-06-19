@@ -1,0 +1,28 @@
+{% extends 'posts/base.html' %}
+{%block content%}
+
+        <h3 style="text-align:center;margin-bottom:30px;">Followers</h3>
+        <div class="card" style="width: 100%;">
+          <ul class="list-group list-group-flush">
+                {% for follower in follower_list %}
+              <li class="list-group-item" style="text-align:center;border:solid"><strong style="font-size:25px;">{{follower.user}}</strong>&nbsp &nbsp &nbsp &nbsp  <div style="margin:left:50%;">Followers:{{follower.user.followed_by.count}}&nbsp  Following:{{follower.following.all.count}}</div></li>
+
+              {% endfor %}
+          </ul>
+        </div>
+
+<style>
+.container-fluid{
+	width: 28rem;
+	height: auto;
+	margin : 0 auto;
+	margin-top: 10%;
+	padding: 0px;
+	align-self: center;
+	align-items: center;
+
+
+}
+</style>
+
+{% endblock %}

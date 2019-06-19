@@ -23,13 +23,17 @@ urlpatterns = [
     # path('', views.post_list, name='post_list'),
     url(r'^$', views.post_list, name="post_list"),
     # url(r'like_post/$', views.like_post, name="like_post"),
-    url(r'^like_post/(?P<id>\d+)/$',views.like_post, name="like_post"),
-
-
+    #url(r'^like_post/(?P<id>\d+)/$',views.like_post, name="like_post"),
+    path('like_post/<int:id>/',views.like_post,name='like_post'),
+    #url(r'^profile_view/(?P<author>\w+)/$',views.author,name='author'),
+    path('profile_view/<int:id>/',views.author,name = 'author'),
     #url('home', views.post_list, name="post_list"),
     url(r'^posts/(?P<id>\d+)/$',views.post_detail, name="post_detail"),
         # url(r'^posts/(?P<id>\d+)/(?P<slug>[\w-]+)/$',views.post_detail, name="post_detail"),
-
+    path('profile_view/temp/<int:id>/',views.follow,name='temp'),
+    path('my_profile/',views.my_profile,name='my_profile'),
+    path('/followers_list/<int:id>/',views.followers_list,name='followers_list'),
+    path('/following_list /<int:id>/',views.following_list,name='following_list'),
     url(r'post_create/$', views.post_create, name="post_create"),
-
+    #path('/temp/<int:id>/',views.profile,name='profile'),
 ]

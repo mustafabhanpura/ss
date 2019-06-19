@@ -1,10 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'posts/base.html' %}
+{%block content%}
+    <div class="card" style="">
+
+			  <div class="card-body">
+			    <h5 class="card-title" style="text-align:center;">{{details}}</h5>
+                  <p class="card-text" style="text-align:center;"><a href="{% url 'posts:following_list' details.id %}" style="color:black;" >Following:{{details.following.all.count}}</a>&nbsp &nbsp &nbsp
+                      <a href="{% url 'posts:followers_list' details.id %}" style="color:black;">Followers:{{details.user.followed_by.count}}</a></p>
+
+			  </div>
+			  <ul class="list-group list-group-flush">
+                  {% for p in post %}
+
+                  <li class="list-group-item" style="text-align:center;"><a href="{% url 'posts:post_detail' p.id %}">{{p.title}}</a></li>
+                    {% endfor %}
+			  </ul>
+            <div class="card-body">
+                {% if follow_1 is True %}
+                <a href="{% url 'posts:temp' details.id  %}" class="card-link"><button class="btn btn-primary foll">Follow</button></a>
+                {% else %}
+                <a href="{% url 'posts:temp' details.id  %}" class="card-link"><button class="btn btn-primary foll">UnFollow</button></a>
+                {% endif %}
+            </div>
+    </div>
+
+
+<style>
+    .follow{
+    height:450px;
+    width:300px;
+    margin:0px;
+    }
+    .foll{
+        margin-left:75%;
+    }
+    .container-fluid{
+	width: 35rem;
+	height: auto;
+	margin : 0 auto;
+	margin-top: 10%;
+    padding: 0px;
+	align-self: center;
+	align-items: center;
+}
+
+</style>
+{% endblock %}

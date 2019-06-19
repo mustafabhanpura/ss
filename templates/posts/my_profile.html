@@ -1,10 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'posts/base.html' %}
+{%block content%}
+
+    <div class="card" style="">
+
+			  <div class="card-body">
+			    <h5 class="card-title" style="text-align:center;">{{auth.user}}</h5>
+			    <p class="card-text" style="text-align:center;">Following:{{auth.following.all.count}} &nbsp &nbsp &nbsp Followers:{{auth.user.followed_by.count}}</p>
+
+			  </div>
+			  <ul class="list-group list-group-flush">
+                  {% for p in post %}
+
+                  <li class="list-group-item" style="text-align:center;"><a href="{% url 'posts:post_detail' p.id %}">{{p.title}}</a></li>
+                    {% endfor %}
+			  </ul>
+
+    </div>
+<style>
+	.container-fluid{
+	width: 28rem;
+	height: auto;
+	margin : 0 auto;
+	margin-top: 10%;
+	padding: 0px;
+	align-self: center;
+	align-items: center;
+}
+
+</style>
+
+{% endblock %}
